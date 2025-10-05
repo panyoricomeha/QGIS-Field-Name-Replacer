@@ -1,0 +1,31 @@
+[general]
+name=Field Name Replacer
+qgisMinimumVersion=3.0
+description=A QGIS plugin to batch rename field (attribute) names based on a CSV or text file of replacement rules.
+version=1.0.0
+author=rikuto arita
+email=panyoricomeha6466@gmail.com
+
+about=This plugin allows you to batch replace field (attribute) names of the active layer in QGIS.
+      You can either manually specify the old and new field names, or use a CSV/text file containing replacement rules (e.g., old,new).
+      It helps efficiently reorganize and standardize attribute field names.
+
+tracker=https://github.com/rikutoarita/QGIS-Plugin-Field-Name-Replacer
+repository=https://github.com/rikutoarita/QGIS-Plugin-Field-Name-Replacer
+
+hasProcessingProvider=no
+changelog=1.0.0 Initial release. Added functionality to batch replace field names via manual input or CSV file.
+
+tags=field names,batch processing,attribute renaming,QGIS,utility
+
+homepage=https://github.com/rikutoarita/QGIS-Plugin-Field-Name-Replacer
+category=Vector
+icon=icon.png
+experimental=False
+deprecated=False
+license=MIT
+
+# plugin_dependencies=
+
+# If the plugin can run on QGIS Server.
+server=False
